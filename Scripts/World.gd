@@ -1,5 +1,25 @@
 extends Node2D
-#
+
+const biomes = {
+	'savannah' : Vector2i(),
+	'mesa' : Vector2i(),
+	'rocks' : Vector2i(),
+	'volcano' : Vector2i(),
+	'swamp' : Vector2i(),
+	'flower plains' : Vector2i(),
+	'dark forest' : Vector2i(),
+	'plains' : Vector2i(),
+	'wet plains' : Vector2i(),
+	'light forest' : Vector2i(),
+	'dry plains' : Vector2i(),
+	'desert' : Vector2i(),
+	'snow' : Vector2i(),
+	'warm ocean' : Vector2i(),
+	'ocean' : Vector2i(),
+	'cold ocean' : Vector2i(),
+	'frozen ocean' : Vector2i(),
+}
+
 const TEST_SEED = 983233
 
 var wetness = FastNoiseLite.new()

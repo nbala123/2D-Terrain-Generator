@@ -1,6 +1,7 @@
+Camera2D
+SubViewport
 TextureRect
 ColorRect
-Camera2D
 CollisionShape2D
 Sprite2D
 CharacterBody2D

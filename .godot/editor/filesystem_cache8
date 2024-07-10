@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1720464963
+::res://::1720638635
+export_presets.cfg::TextFile::-1::1720567985::0::1::::<><>::
 icon.svg::CompressedTexture2D::7331053293439074501::1720460535::1720460545::1::::<><>::
-Player.gd::GDScript::-1::1720465224::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1034544778234893089::1720465227::0::1::::<><>::res://Player.gd<>uid://dcphm2ol4ikx6::::res://icon.svg
+player.tscn::PackedScene::1034544778234893089::1720566515::0::1::::<><>::res://Scripts/Player.gd<>uid://dcphm2ol4ikx6::::res://icon.svg
 terrain-v7.png::CompressedTexture2D::467985317557735465::1720461005::1720461006::1::::<><>::
-world.tscn::PackedScene::7937935164604709956::1720463569::0::1::::<><>::res://Scripts/World.gd<>uid://gwxwdgabmee8::::res://terrain-v7.png
-::res://Scripts/::1720463569
-World.gd::GDScript::-1::1720465224::0::1::::<>Node2D<>::
+world.tscn::PackedScene::7937935164604709956::1720567978::0::1::::<><>::res://Scripts/World.gd<>uid://gwxwdgabmee8::::res://terrain-v7.png<>uid://o0e2imhbpqwn::::res://player.tscn
+::res://Scripts/::1720567978
+Player.gd::GDScript::-1::1720465334::0::1::::<>CharacterBody2D<>::
+World.gd::GDScript::-1::1720567978::0::1::::<>Node2D<>::
